@@ -1,8 +1,11 @@
+<html>
+<head>
+
 <script type="text/javascript">
   https://lpcdn.lpsnmedia.net/webagent/client-SDK.min.js
 </script>
-
-
+</head>
+<body>
 <script type="text/javascript">
  var notificationHandler = function(data) {
     // Do something with the notifications
@@ -47,3 +50,6 @@ var updateCallback = function(data) {
 var pathToData = "chatTranscript.lines";
         lpTag.agentSDK.bind(pathToData, updateCallback, notifyWhenDone);
         </script>
+</body>
+
+</html>
