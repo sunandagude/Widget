@@ -2,7 +2,8 @@
 <head>
 
 <script type="text/javascript">
-  https://lpcdn.lpsnmedia.net/webagent/client-SDK.min.js
+<script src="https://lpcdn.lpsnmedia.net/webagent/client-SDK.min.js">
+ 
 </script>
 </head>
 <body>
